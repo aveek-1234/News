@@ -1,0 +1,22 @@
+.Details{
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.Totaldetail{
+    background-color: rgb(192, 226, 43);
+}
+
+.close:hover{
+    background-color: cyan;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    max-width: 60%;
+}

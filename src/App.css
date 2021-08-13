@@ -1,0 +1,17 @@
+.News {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ width:fit-content;
+ height:fit-content;
+ margin: 2px;
+}
+h1{
+  background-color: black;
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  left: 50%;
+}
+
+
