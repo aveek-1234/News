@@ -9,7 +9,7 @@
 }
 
 .close{
-    
+    bottom: 0px;
     background-color: rgb(202, 29, 202);
     border: darkturquoise;
     color: purple;
