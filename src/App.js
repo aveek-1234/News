@@ -8,9 +8,7 @@ function App() {
   const website= process.env.REACT_APP_WEBSITE;
   const key= process.env.REACT_APP_KEY;
   const host= process.env.REACT_APP_HOST;
-  console.log(website);
-  console.log(key);
-  console.log(host);
+ 
 
 useEffect(()=>{fetch(website, {
   "method": "GET",
@@ -19,7 +17,7 @@ useEffect(()=>{fetch(website, {
     "x-rapidapi-host": host
   }
 })
-.then(response=>response.json()).then(data=>{console.log(data.value);
+.then(response=>response.json()).then(data=>{
  setnews(data.value);
 })
 .catch(err => {
