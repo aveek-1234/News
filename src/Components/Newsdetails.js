@@ -8,9 +8,9 @@ function Newsdetails(props) {
     return ( <>{(props.view)?(
                 <div className="Totaldetail" >
                  <h2>{props.data.title}</h2>
+                 <img src={props.data.image.url}/>
                 <div className="Details">{props.data.body}
-                <img src={props.data.image.url}/>
-       <Button size="Small" className="close" color="primary" onClick={()=>props.setview(false)} >Close</Button>
+       <Button size="Small" className="close"  onClick={()=>props.setview(false)} >Close</Button>
     </div>
     </div>): ""}
 

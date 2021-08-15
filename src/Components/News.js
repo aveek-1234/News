@@ -41,7 +41,7 @@ export default function News(data) {
       </CardActionArea>
       <CardActions >
         <Button className="Details" size="small"  color="primary" onClick={handleclick} >
-          Learn More
+          See Details
         </Button>
       </CardActions>
     </Card>

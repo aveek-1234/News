@@ -8,10 +8,15 @@
     background-color: rgb(192, 226, 43);
 }
 
-.close:hover{
-    background-color: cyan;
+.close{
+    
+    background-color: rgb(202, 29, 202);
+    border: darkturquoise;
+    color: purple;
 }
-
+.close:hover{
+    background-color: dimgrey;
+}
 h2{
     display: flex;
     justify-content: center;
@@ -19,4 +24,6 @@ h2{
 
 img{
     max-width: 60%;
+    display: flex;
+    justify-content: center;
 }
